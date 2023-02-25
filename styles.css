@@ -9,6 +9,7 @@
   
   body {
     margin: 0;
+    background-image: linear-gradient(rgb(14, 125, 176), rgb(83, 121, 141), rgb(226, 229, 233));
   }
   
   .board {
@@ -143,4 +144,13 @@
   
   .winning-message.show {
     display: flex;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
   }
